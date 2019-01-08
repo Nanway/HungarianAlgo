@@ -16,7 +16,7 @@ I use the array of array lists to represent the ordering of each URL in each of 
 would be in each file. Using this set of URLs and this array of array lists I have enough information to create my bipartite graph. I then initialise the weights using the scaled footrule
 and then apply the algorithm (which is explained in the comments inside the files)
 
-To run this yourself use the make file and the command to run is ## ./scaledFootRule File1 File2 ... ##
+To run this yourself use the make file and the command to run is ./scaledFootRule File1 File2 ...
 
 Inside the lines you can uncomment one of the lines to print out a weight matrix representing the cost from each URL to each position.
 If you copy this into the input.txt file and then run checkResults.py this will use Selenium to open up your browser and enter these 
