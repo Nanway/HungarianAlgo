@@ -3,6 +3,7 @@
 To run this yourself use the make file and the command to run is ./scaledFootRule File1 File2 ...
 To check your results, see the last paragraph (needs python + Selenium + Chromium)
 
+### Background and Description
 The Hungarian Algorithm is an algorithm which solves the assignment problem. In essence this is a problem where you have N amount of objects that need to be assigned to N amount of spots.
 However, the cost of assigning each object to each spot differs and we seek to find an optimal matching such that the overall 'cost' is minimised. For example, lets say we have workers for jobs and each worker has a different price for each job. 
 We want to assign each worker to a job in such a way that the overall cost is minimised.
