@@ -1,4 +1,8 @@
 # HungarianAlgo
+
+To run this yourself use the make file and the command to run is ./scaledFootRule File1 File2 ...
+To check your results, see the last paragraph (needs python + Selenium + Chromium)
+
 The Hungarian Algorithm is an algorithm which solves the assignment problem. In essence this is a problem where you have N amount of objects that need to be assigned to N amount of spots.
 However, the cost of assigning each object to each spot differs and we seek to find an optimal matching such that the overall 'cost' is minimised. For example, lets say we have workers for jobs and each worker has a different price for each job. 
 We want to assign each worker to a job in such a way that the overall cost is minimised.
@@ -15,8 +19,6 @@ I read in the files into an array of array lists as well as a BST. I use the BST
 I use the array of array lists to represent the ordering of each URL in each of the files. It is an array list as I am unsure how many URLs there 
 would be in each file. Using this set of URLs and this array of array lists I have enough information to create my bipartite graph. I then initialise the weights using the scaled footrule
 and then apply the algorithm (which is explained in the comments inside the files)
-
-To run this yourself use the make file and the command to run is ./scaledFootRule File1 File2 ...
 
 Inside the lines you can uncomment one of the lines to print out a weight matrix representing the cost from each URL to each position.
 If you copy this into the input.txt file and then run checkResults.py this will use Selenium to open up your browser and enter these 
